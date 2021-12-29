@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@font-face {
+  src : url('./public/fonts/vitro_core.ttf') format('truetype');
+  font-family: 'vitro_core';
+}
+@font-face {
+  src : url('./public/fonts/organic_slab.ttf') format('truetype');
+  font-family: 'organic_slab';
+}
+@font-face {
+  src : url('./public/fonts/elice_digital_baeum_regular.ttf') format('truetype');
+  font-family: 'elice';
+}
+@font-face {
+  src : url('./public/fonts/doHyeon_regular.ttf') format('truetype');
+  font-family: 'do_hyeon';
+}
+@font-face {
+  src: url('./public/fonts/rozhaOne-Regular.ttf') format('truetype');
+  font-family: 'rozha';
+}
+
+.vitro {
+  font-family: 'vitro_core';
+}
+
+.organic {
+  font-family: 'organic_slab';
+}
+
+.elice {
+  font-family: 'elice';
+}
+
+.doHyeon {
+  font-family: 'do_hyeon';
+}
+
+.rozha {
+  font-family: 'rozha';
+}

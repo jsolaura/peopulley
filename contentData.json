@@ -1,0 +1,78 @@
+{
+    "ongoing": [
+        {
+            "id": "1",
+            "title": "Strange Vintage : 오광대의 기묘한 탈",
+            "subTitle": "",
+            "h2": "Strange Vintage : 오광대의 기묘한 탈",
+            "h3": "우리나라 전통 가면극 '통영오광대'의 혼합현실 체험을 위한 <br/> 이머시브 마당놀이 실감콘텐츠 입니다",
+            "location": "-",
+            "date": "2021, 11",
+            "category": "Immersive Space <br/> Interactive Art <br/> Projection Mapping <br/> Motion Graphic",
+            "role": "Planning, Producing, Making",
+            "iframe": "",
+            "still": "STILLS",
+            "images": [
+                "img/works/ongoing/1/1.jpg",
+                "img/works/ongoing/1/2.jpg",
+                "img/works/ongoing/1/3.jpg",
+                "img/works/ongoing/1/4.jpg",
+                "img/works/ongoing/1/5.jpg"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "안녕, 모란",
+            "subTitle": "국립고궁박물관 <br/> National Palace Museum",
+            "h2": "안녕, 모란",
+            "h3": "우리나라에 들어온 삼국시대부터 조선시대에 이르기까지 왕실과 민간을 <br/> 막론하며 사랑받은 꽃 모란. 그 중 조선 왕실에서 모란이 향유하는 <br/> 다양한 상징을 소개하는 특별전입니다.",
+            "location": "국립고궁박물관",
+            "date": "2021, 07",
+            "category": "Immersive Space <br/> Interactive Art <br/> Projection Mapping <br/> Motion Graphic <br/> Documentary Film",
+            "role": "Planning, Producing, Making",
+            "still": "STILLS",
+            "iframe": "",
+            "images": [
+                "img/works/ongoing/2/1.jpg",
+                "img/works/ongoing/2/2.jpg",
+                "img/works/ongoing/2/3.jpg",
+                "img/works/ongoing/2/4.jpg",
+                "img/works/ongoing/2/5.jpg",
+                "img/works/ongoing/2/6.jpg",
+                "img/works/ongoing/2/7.jpg",
+                "img/works/ongoing/2/8.jpg",
+                "img/works/ongoing/2/9.jpg",
+                "img/works/ongoing/2/10.jpg",
+                "img/works/ongoing/2/11.jpg",
+                "img/works/ongoing/2/12.jpg"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "호모 사피엔스 : 진화∞관계&미래?",
+            "subTitle": "국립중앙박물관 <br/> National Museum of Korea",
+            "h2": "호모 사피엔스 : 진화∞관계&미래?",
+            "h3": "국립중앙박물관 특별 전시 [호모 사피엔스 : 진화∞ 관계& 미래?]에서는 다양한 시각으로 호모사피엔스의 과장되지 않은 실체를 직시해 보고자 합니다. 또 진화과정에서 맺어 온 여러 생물종들과의 관계를 성찰하는 한편, 앞으로 맞이하게 될 미래를 준비하는 우리의 자세를 고민해보는 기회이기를 희망합니다.",
+            "location": "국립중앙박물관",
+            "date": "2021, 05",
+            "category": "Immersive Space <br/> Interactive Art <br/> 3D Projection Mapping <br/> 3D Motion Capture <br/> Motion Graphic",
+            "role": "Planning, Producing, Making <br/> System Design, Development",
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/I8Ys1fNF43I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "still": "STILLS",
+            "images": [
+                "img/works/ongoing/3/1.jpg",
+                "img/works/ongoing/3/2.jpg",
+                "img/works/ongoing/3/3.jpg",
+                "img/works/ongoing/3/4.jpg",
+                "img/works/ongoing/3/5.jpg",
+                "img/works/ongoing/3/6.jpg",
+                "img/works/ongoing/3/7.jpg",
+                "img/works/ongoing/3/8.jpg",
+                "img/works/ongoing/3/9.jpg",
+                "img/works/ongoing/3/10.jpg",
+                "img/works/ongoing/3/11.jpg",
+                "img/works/ongoing/3/12.jpg"
+            ]
+        }
+    ]
+}
