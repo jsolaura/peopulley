@@ -1,0 +1,951 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+.sound_only{
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+.detailHeader {
+    width: 100vw;
+    min-height: 90vh;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.controler {
+    width: 980px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 900;
+}
+
+.controler button {
+    outline: none;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+}
+
+.controler button i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.headerText {
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.detailHeader img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.detailHeader h2 > p {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.detailHeader h3 > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+section {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.infoContainer {
+    width: 1240px;
+    min-height: 700px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoLeft,
+.infoRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoLeft {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.infoRight {
+    width: 40%;
+    border-left: 1px solid #000;
+    padding: 3rem;
+}
+
+.infoLeft h4 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.infoLeft h5 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.infoRight dl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoRight dl dt {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.infoRight dl dd {
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.infoRight dl dd.noto {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.infoRight dl dd p {
+    line-height: 1.5;
+}
+
+.stills {
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+.iframeContainer {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    width: 980px;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 5rem;
+}
+
+.imgContainer {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+
+}
+
+/*ongoing page */
+.detailMain1 {
+    background: url("public/img/background/1-1.png")no-repeat 100% -0rem / cover;
+}
+.detailMain2 {
+    background: url("public/img/background/1-2.png")no-repeat  100% -30rem  / cover;
+}
+.detailMain3 {
+    background: url("public/img/background/1.png")no-repeat  100% -30rem  / cover;
+}
+.detailMain4 {
+    background: url("public/img/background/배경11.png")no-repeat  100% -10rem  / cover;
+}
+.detailMain5 {
+    background: url("public/img/background/3.png")no-repeat  100% -20rem  / cover;
+}
+.detailMain6 {
+    background: url("public/img/background/배경13.png")no-repeat  100% -10rem  / cover;
+}
+
+/*archive page */
+.archive .detailMain1 {
+    background: url("public/img/background/3.png") 100% -100rem / cover;
+}
+.archive .detailMain2 {
+    background: url("public/img/background/배경11.png") 100% -100rem / cover;
+}
+.archive .detailMain3 {
+    background: url("public/img/background/배경17.png") 100% -100rem / cover;
+}
+.archive .detailMain4 {
+    background: url("public/img/background/배경24.png") 100% -20rem / cover;
+}
+.archive .detailMain5 {
+    background: url("public/img/background/배경17.png") 100% -50rem / cover;
+}
+.archive .detailMain6 {
+    background: url("public/img/background/배경26.png")no-repeat 100% -30rem / cover;
+}
+.archive .detailMain7,
+.archive .detailMain8 {
+    background: url("public/img/background/배경11.png") 100% -10rem / cover;
+}
+.archive .detailMain9 {
+    background: url("public/img/background/3.png")no-repeat 100% -10rem / cover;
+}
+.archive .detailMain10 {
+    background: url("public/img/background/배경25.png")no-repeat 100% -50rem / cover;
+}
+.archive .detailMain11 {
+    background: url("public/img/background/배경13.png") 100% -60rem / cover;
+}
+.archive .detailMain12 {
+    background: url("public/img/background/배경17.png") 100% -10rem / cover;
+}
+.archive .detailMain13 {
+    background: url("public/img/background/배경20.png")no-repeat 100% -10rem / cover;
+}
+.archive .detailMain14 {
+    background: url("public/img/background/배경25.png")no-repeat 100% -30rem / cover;
+}
+.archive .detailMain15 {
+    background: url("public/img/background/배경26.png") 100% -50rem / cover;
+}
+.archive .detailMain16 {
+    background: url("public/img/background/3.png") 100% -10rem / cover;
+}
+.archive .detailMain17 {
+    background: url("public/img/background/배경17.png") 100% -20rem / cover;
+}
+.archive .detailMain18 {
+    background: url("public/img/background/3.png") 100% -10rem / cover;
+}
+.archive .detailMain19 {
+    background: url("public/img/background/배경4.png") 100% -50rem / cover;
+}
+.archive .detailMain20 {
+    background: url("public/img/background/배경17.png") 100% -40rem / cover;
+}
+.archive .detailMain21 {
+    background: url("public/img/background/3.png") 100% -20rem / cover;
+}
+.archive .detailMain22 {
+    background: url("public/img/background/배경8.png") 100% -0rem / cover;
+}
+.archive .detailMain23 {
+    background: url("public/img/background/배경17.png") 100% -40rem / cover;
+}
+
+
+/*ongoing page */
+.imgContainer img {
+    margin-bottom: 0.5rem;
+    object-fit: cover;
+}
+
+.imgContainer img:nth-child(1) {
+    width: 100%;
+}
+.imgContainer img:nth-child(2),
+.imgContainer img:nth-child(3) {
+    width: 49.5%;
+}
+
+:is(.detailMain2 .imgContainer)
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.detailMain2 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.detailMain2 .imgContainer)
+img:nth-child(11),
+img:nth-child(12) {
+    width: 49.5%;
+}
+:is(.detailMain3 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 29.5%;
+}
+:is(.detailMain3 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 69.5%;
+}
+:is(.detailMain3 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.detailMain3 .imgContainer)
+img:nth-child(11),
+img:nth-child(12) {
+    width: 49.5%;
+}
+:is(.detailMain4 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 59.5%;
+}
+
+:is(.detailMain4 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10),
+img:nth-child(11) {
+    width: 100%;
+}
+:is(.detailMain5 .imgContainer)
+img:nth-child(2),
+img:nth-child(3) {
+    width: 49.5%;
+}
+.detailMain5 .imgContainer img:nth-child(4) {
+    width: 59.5%;
+}
+.detailMain5 .imgContainer img:nth-child(5) {
+    width: 39.5%;
+    height: 100%;
+}
+:is(.detailMain5 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(13),
+img:nth-child(14) {
+    width: 100%;
+}
+:is(.detailMain5 .imgContainer)
+img:nth-child(8),
+img:nth-child(9) {
+    width: 49.5%;
+}
+:is(.detailMain5 .imgContainer)
+img:nth-child(10),
+img:nth-child(11),
+img:nth-child(12){
+    width: 32.5%;
+}
+:is(.detailMain6 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 39.5%;
+}
+:is(.detailMain6 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 59.5%;
+}
+:is(.detailMain6 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.detailMain6 .imgContainer)
+img:nth-child(11),
+img:nth-child(12) {
+    width: 49.5%;
+}
+
+/*archive page */
+:is(.archive .detailMain1 .imgContainer)
+img:nth-child(6),
+img:nth-child(7) {
+    /*width: 49.5%;*/
+}
+:is(.archive .detailMain1 .imgContainer)
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    /*width: 32.5%;*/
+}
+:is(.archive .detailMain1 .imgContainer)
+img:nth-child(12),
+img:nth-child(13) {
+    width: 49.5%;
+}
+.archive .detailMain2 .imgContainer img:nth-child(2) {
+    width: 56.5%;
+}
+.archive .detailMain2 .imgContainer img:nth-child(3) {
+    width: 42.5%;
+}
+:is(.archive .detailMain3 .imgContainer)
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain4 .imgContainer)
+img:nth-child(1),
+img:nth-child(6),
+img:nth-child(7) {
+    width: 100%;
+}
+:is(.archive .detailMain4 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+.archive .detailMain5 .imgContainer img:nth-child(4) {
+    width: 59.5%;
+}
+.archive .detailMain5 .imgContainer img:nth-child(5) {
+    width: 39.5%;
+    height: auto;
+}
+.archive .detailMain7 .imgContainer img:nth-child(2) {
+    width: 100%;
+}
+:is(.archive .detailMain7 .imgContainer)
+img:nth-child(6),
+img:nth-child(7) {
+    width: 49.5%;
+}
+:is(.archive .detailMain7 .imgContainer)
+img:nth-child(9),
+img:nth-child(10),
+img:nth-child(11) {
+    width: 100%;
+}
+:is(.archive .detailMain8 .imgContainer)
+img:nth-child(1),
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.archive .detailMain8 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain9 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4) {
+    /*width: 32.5%;*/
+}
+:is(.archive .detailMain9 .imgContainer)
+img:nth-child(5) {
+    /*width: 59.5%;*/
+}
+:is(.archive .detailMain9 .imgContainer)
+img:nth-child(6) {
+    /*width: 100%;*/
+}
+:is(.archive .detailMain10 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5),
+img:nth-child(8),
+img:nth-child(9) {
+    width: 49.5%;
+}
+:is(.archive .detailMain11 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5),
+img:nth-child(11),
+img:nth-child(12){
+    width: 49.5%;
+}
+:is(.archive .detailMain12 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 59.5%;
+}
+:is(.archive .detailMain12 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 39.5%;
+}
+:is(.archive .detailMain13 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 45.5%;
+}
+:is(.archive .detailMain13 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 53.5%;
+}
+:is(.archive .detailMain13 .imgContainer)
+img:nth-child(12) {
+    width: 100%;
+}
+:is(.archive .detailMain13 .imgContainer)
+img:nth-child(14),
+img:nth-child(15) {
+    width: 49.5%;
+}
+:is(.archive .detailMain14 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain14 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.archive .detailMain14 .imgContainer)
+img:nth-child(11),
+img:nth-child(12) {
+    width: 49.5%;
+}
+:is(.archive .detailMain15 .imgContainer)
+img:nth-child(2) {
+    width: 39.5%;
+}
+:is(.archive .detailMain15 .imgContainer)
+img:nth-child(3) {
+    width: 59.5%;
+}
+:is(.archive .detailMain15 .imgContainer)
+img:nth-child(4),
+img:nth-child(5),
+img:nth-child(7),
+img:nth-child(8) {
+    width: 49.5%;
+}
+:is(.archive .detailMain15 .imgContainer)
+img:nth-child(6),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.archive .detailMain16 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain16 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.archive .detailMain17 .imgContainer)
+img:nth-child(2),
+img:nth-child(3) {
+    width: 49.5%;
+}
+
+.archive .detailMain17 .imgContainer img:nth-child(4),
+.archive .detailMain17 .imgContainer img:nth-child(5),
+.archive .detailMain17 .imgContainer img:nth-child(6) {
+    width: 32.5%;
+}
+:is(.archive .detailMain17 .imgContainer)
+img:nth-child(7),
+img:nth-child(8) {
+    width: 100%;
+}
+:is(.archive .detailMain18 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10),
+img:nth-child(11) {
+    width: 100%;
+}
+:is(.archive .detailMain18 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 45.5%;
+}
+:is(.archive .detailMain18 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 53.5%;
+}
+:is(.archive .detailMain19 .imgContainer)
+img:nth-child(2),
+img:nth-child(5) {
+    width: 45.5%;
+}
+:is(.archive .detailMain19 .imgContainer)
+img:nth-child(3),
+img:nth-child(4) {
+    width: 53.5%;
+}
+:is(.archive .detailMain19 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8),
+img:nth-child(9),
+img:nth-child(10) {
+    width: 100%;
+}
+:is(.archive .detailMain20 .imgContainer)
+img:nth-child(2) {
+    width: 45.5%;
+}
+:is(.archive .detailMain20 .imgContainer)
+img:nth-child(3){
+    width: 53.5%;
+}
+:is(.archive .detailMain20 .imgContainer)
+img:nth-child(4),
+img:nth-child(5) {
+    width: 100%;
+}
+:is(.archive .detailMain20 .imgContainer)
+img:nth-child(5) {
+    width: 100%;
+}
+:is(.archive .detailMain21 .imgContainer)
+img:nth-child(2) {
+    width: 55.5%;
+}
+:is(.archive .detailMain21 .imgContainer)
+img:nth-child(3){
+    width: 43.5%;
+}
+:is(.archive .detailMain21 .imgContainer)
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain21 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8) {
+    width: 100%;
+}
+:is(.archive .detailMain22 .imgContainer)
+img:nth-child(2),
+img:nth-child(3),
+img:nth-child(4),
+img:nth-child(5) {
+    width: 49.5%;
+}
+:is(.archive .detailMain22 .imgContainer)
+img:nth-child(6),
+img:nth-child(7) {
+    width: 100%;
+}
+:is(.archive .detailMain23 .imgContainer)
+img:nth-child(2),
+img:nth-child(3) {
+    width: 49.5%;
+}
+:is(.archive .detailMain23 .imgContainer)
+img:nth-child(4){
+    width: 43.5%;
+}
+:is(.archive .detailMain23 .imgContainer)
+img:nth-child(5) {
+    width: 55.5%;
+}
+:is(.archive .detailMain23 .imgContainer)
+img:nth-child(6),
+img:nth-child(7),
+img:nth-child(8) {
+    width: 100%;
+}
+
+.archive .detailMain6 .infoContainer,
+.archive .detailMain15 .infoContainer {
+    color: #fff;
+}
+
+.archive .detailMain22 .stills {
+    color: #fff;
+}
+
+.transition-detailGroup {
+    position: relative;
+}
+
+.detailPageSlider-enter{
+    opacity: 0;
+}
+
+.detailPageSlider-enter-active{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.detailPageSlider-exit{
+    opacity: 1;
+}
+
+.detailPageSlider-exit-active{
+    opacity: 0;
+    transition: all 1s;
+}
+
+@media only screen and (max-width: 1024px) {
+    .detailHeader {
+        min-height: 50vh;
+    }
+    .detailHeader h2 > p {
+        font-size: 1.5rem;
+    }
+    .detailHeader h3 > p {
+        font-size: 0.9rem;
+    }
+    .controler {
+        width: 100vw;
+        top: 55%;
+    }
+    .controler button i {
+        font-size: 1.5rem;
+    }
+    iframe{
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .iframeContainer,
+    .infoContainer,
+    .imgContainer {
+         width: 100vw;
+    }
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoContainer > div {
+        width: 100vw;
+    }
+    .infoLeft {
+        margin-top: 5rem;
+        padding-bottom: 5rem;
+        border-bottom: 1px solid #eee;
+    }
+    .infoRight {
+        border-left: 0;
+    }
+    .infoRight dl {
+        flex-direction: row;
+        flex-wrap: wrap ;
+        justify-content: center;
+    }
+    .infoRight dl dt {
+        text-align: right;
+        padding-right: 3rem;
+    }
+    .infoRight dl dt,
+    .infoRight dl dd {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .infoContainer {
+        min-height: auto;
+    }
+    .detailHeader h2 > p {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+    .detailHeader h3 > p {
+        font-size: 0.8rem;
+        line-height: 1.3;
+    }
+    .infoLeft {
+        padding: 2rem;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .infoLeft h4 {
+        width: 90%;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .infoLeft h5 {
+        width: 75%;
+        padding: 0 0.9rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .infoRight {
+        flex-direction: row;
+        flex-wrap: wrap ;
+        padding-bottom: 2rem;
+    }
+    .infoRight dl dt {
+        text-align: center;
+        padding-right: 0;
+    }
+    .infoRight dl dt,
+    .infoRight dl dd {
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .infoRight dl dt:after {
+        content: '';
+        width: 1px;
+        height: 50%;
+        background: #444;
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+    }
+    iframe {
+        aspect-ratio: 4 / 3;
+        margin-bottom: 1rem;
+    }
+    .stills {
+        padding: 2rem 0 1rem;
+    }
+    :is(.detailMain15) dl,dt,dd,.stills {
+        color: #000;
+    }
+    .detailMain22 .infoLeft h4 {
+        width: 65%;
+    }
+    .imgContainer {
+        width: 100vw !important;
+        padding-bottom: 5rem;
+    }
+    :is(.detailMain3 .imgContainer)
+    img:nth-child(7),
+    img:nth-child(8) {
+        width: 49.5%;
+    }
+    .detailMain3 .imgContainer img:nth-child(7) {
+        width: 100%;
+    }
+    .detailMain5 .imgContainer img:nth-child(10),
+    .detailMain5 .imgContainer img:nth-child(11) {
+        width: 49.5%;
+    }
+    :is(.archive .detailMain1 .imgContainer)
+    img:nth-child(12),
+    img:nth-child(13) {
+        width: 49.5%;
+    }
+    .archive .detailMain1 .imgContainer img:nth-child(8),
+    .archive .detailMain1 .imgContainer img:nth-child(9) {
+        width: 100%;
+    }
+    .archive .detailMain2 .imgContainer img:nth-child(8) {
+        width: 100%;
+    }
+    :is(.archive .detailMain4 .imgContainer)
+    img:nth-child(7) {
+        width: 100%;
+    }
+    .archive .detailMain7 .imgContainer img:nth-child(8) {
+        width: 100% ;
+    }
+    .archive .detailMain8 .imgContainer img:nth-child(6),
+    .archive .detailMain8 .imgContainer img:nth-child(7) {
+        width: 49.5%;
+    }
+    .archive .detailMain8 .imgContainer img:nth-child(8),
+    .archive .detailMain8 .imgContainer img:nth-child(9) {
+        width: 100%;
+    }
+    :is(.archive .detailMain9 .imgContainer)
+    img:nth-child(2),
+    img:nth-child(3) {
+        width: 49.5%;
+    }
+    :is(.archive .detailMain9.imgContainer)
+    img:nth-child(8),
+    img:nth-child(9) {
+        width: 49.5%;
+    }
+    :is(.archive .detailMain13 .imgContainer)
+     img:nth-child(2) {
+         width: 45.5%;
+     }
+    :is(.archive .detailMain13 .imgContainer)
+    img:nth-child(13) {
+        width: 100%;
+    }
+    :is(.archive .detailMain14 .imgContainer)
+    img:nth-child(7),
+    img:nth-child(8) {
+        width: 49.5%;
+    }
+    :is(.archive .detailMain14 .imgContainer)
+    img:nth-child(9) {
+        width: 100%;
+    }
+    :is(.archive .detailMain15 .imgContainer)
+    img:nth-child(9) {
+        width: 100%;
+    }
+    :is(.archive .detailMain17 .imgContainer)
+    img:nth-child(8) {
+        width: 100%;
+    }
+    :is(.archive .detailMain20 .imgContainer)
+    img:nth-child(5) {
+        width: 100%;
+    }
+    :is(.archive .detailMain21 .imgContainer)
+    img:nth-child(8) {
+        width: 100%;
+    }
+    :is(.archive .detailMain23 .imgContainer)
+    img:nth-child(8) {
+        width: 100%;
+    }
+}
